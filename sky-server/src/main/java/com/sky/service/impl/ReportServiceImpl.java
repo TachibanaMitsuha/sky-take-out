@@ -59,6 +59,6 @@ public class ReportServiceImpl implements ReportService {
                 .dateList(StringUtils.join(dateList,","))
                 .turnoverList(StringUtils.join(turnoverList,","))
                 .build();
-    }
+
     }
 }
